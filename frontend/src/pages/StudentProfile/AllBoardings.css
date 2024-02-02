@@ -1,0 +1,100 @@
+.all-boarding-cards {
+    color: #1A1A1A !important ;
+    text-decoration: none !important;
+  height: 180px;
+  border-radius: 5px;
+  border: 1px solid var(--Gray-5, #e0e0e0);
+  background: #fff;
+  margin: 20px;
+}
+.boarding-card-link {
+    text-decoration: none;
+  }
+.all-boarding-cards-middle{
+   height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+}
+.boarding-card-name{
+    color: #1A1A1A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400; 
+    padding-top: 20px;
+}
+.boarding-card-name-description{
+    color: #1A1A1A !important ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400; 
+}
+.room-image{
+  height: 115px;
+  border-radius: 10px;
+  border: 1px solid var(--Gray-5, #e0e0e0);
+}
+.card-image-div{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.price-section{
+    display: flex;
+    color: #1A1A1A !important ;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 24px;
+    
+}
+.all-boarding-container{
+    padding-bottom: 60px;
+}
+.boarding-card-additional{
+    font-size: 0.9rem;
+}
+.price-tag{
+    margin-top: 40px;
+text-align: center;
+}
+.v-p-b{
+    display: flex;
+    justify-content: center;
+}
+
+.filter-section{
+    display: flex;
+    justify-content: center; 
+  align-items: center;
+  height: 100%;
+}
+.filter-p{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.no-data-message{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.view-profile {
+    background: var(--Gray-6, #F2F2F2);
+    border: 1px solid var(--Gray-5, #E0E0E0);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+    margin-bottom: 45px;
+}
+
+.view-profile:hover {
+    background: var(--Gray-6, #d4cece); /* Change the background color to red when hovering */
+}

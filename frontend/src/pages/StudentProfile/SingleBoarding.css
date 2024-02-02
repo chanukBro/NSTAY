@@ -1,0 +1,34 @@
+.sb-head {
+  border-bottom: 1px solid #2f80ed;
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.sb-name {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #0f4c5c;
+  line-height: 25px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+.sb-head-other {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #8d99ae;
+  line-height: 20px; /* 133.333% */
+  letter-spacing: 0.1px;
+  margin-left: 2px;
+}
+.sb-description {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 600px;
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #64748f;
+}
+.tp {
+  font-size: 16px;
+}
